@@ -10,11 +10,14 @@
 		4982CC851A19354300C25D84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982CC841A19354300C25D84 /* main.m */; };
 		4982CC881A19354300C25D84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982CC871A19354300C25D84 /* AppDelegate.m */; };
 		4982CC8B1A19354300C25D84 /* Hunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4982CC891A19354300C25D84 /* Hunter.xcdatamodeld */; };
-		4982CC8E1A19354300C25D84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982CC8D1A19354300C25D84 /* ViewController.m */; };
+		4982CC8E1A19354300C25D84 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982CC8D1A19354300C25D84 /* RootViewController.m */; };
 		4982CC911A19354300C25D84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4982CC8F1A19354300C25D84 /* Main.storyboard */; };
 		4982CC931A19354300C25D84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4982CC921A19354300C25D84 /* Images.xcassets */; };
 		4982CC961A19354300C25D84 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4982CC941A19354300C25D84 /* LaunchScreen.xib */; };
 		4982CCA21A19354300C25D84 /* HunterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982CCA11A19354300C25D84 /* HunterTests.m */; };
+		4982CCAD1A19518300C25D84 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 4982CCAC1A19518300C25D84 /* Location.m */; };
+		498E37561A19A982004A9A17 /* Place.m in Sources */ = {isa = PBXBuildFile; fileRef = 498E37551A19A982004A9A17 /* Place.m */; };
+		498E37591A19B0AE004A9A17 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 498E37581A19B0AE004A9A17 /* MapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,14 +37,20 @@
 		4982CC861A19354300C25D84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4982CC871A19354300C25D84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4982CC8A1A19354300C25D84 /* Hunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hunter.xcdatamodel; sourceTree = "<group>"; };
-		4982CC8C1A19354300C25D84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4982CC8D1A19354300C25D84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4982CC8C1A19354300C25D84 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4982CC8D1A19354300C25D84 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		4982CC901A19354300C25D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4982CC921A19354300C25D84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4982CC951A19354300C25D84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4982CC9B1A19354300C25D84 /* HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HunterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4982CCA01A19354300C25D84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4982CCA11A19354300C25D84 /* HunterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HunterTests.m; sourceTree = "<group>"; };
+		4982CCAB1A19518300C25D84 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		4982CCAC1A19518300C25D84 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		498E37541A19A982004A9A17 /* Place.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Place.h; sourceTree = "<group>"; };
+		498E37551A19A982004A9A17 /* Place.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Place.m; sourceTree = "<group>"; };
+		498E37571A19B0AE004A9A17 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		498E37581A19B0AE004A9A17 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +94,15 @@
 			children = (
 				4982CC861A19354300C25D84 /* AppDelegate.h */,
 				4982CC871A19354300C25D84 /* AppDelegate.m */,
-				4982CC8C1A19354300C25D84 /* ViewController.h */,
-				4982CC8D1A19354300C25D84 /* ViewController.m */,
+				4982CC8C1A19354300C25D84 /* RootViewController.h */,
+				4982CC8D1A19354300C25D84 /* RootViewController.m */,
+				498E37571A19B0AE004A9A17 /* MapViewController.h */,
+				498E37581A19B0AE004A9A17 /* MapViewController.m */,
 				4982CC8F1A19354300C25D84 /* Main.storyboard */,
 				4982CC921A19354300C25D84 /* Images.xcassets */,
 				4982CC941A19354300C25D84 /* LaunchScreen.xib */,
 				4982CC891A19354300C25D84 /* Hunter.xcdatamodeld */,
+				4982CCAE1A19518A00C25D84 /* Model */,
 				4982CC821A19354300C25D84 /* Supporting Files */,
 			);
 			path = Hunter;
@@ -120,6 +132,17 @@
 				4982CCA01A19354300C25D84 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4982CCAE1A19518A00C25D84 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4982CCAB1A19518300C25D84 /* Location.h */,
+				4982CCAC1A19518300C25D84 /* Location.m */,
+				498E37541A19A982004A9A17 /* Place.h */,
+				498E37551A19A982004A9A17 /* Place.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4982CC881A19354300C25D84 /* AppDelegate.m in Sources */,
+				4982CCAD1A19518300C25D84 /* Location.m in Sources */,
 				4982CC851A19354300C25D84 /* main.m in Sources */,
-				4982CC8E1A19354300C25D84 /* ViewController.m in Sources */,
+				498E37561A19A982004A9A17 /* Place.m in Sources */,
+				4982CC8E1A19354300C25D84 /* RootViewController.m in Sources */,
 				4982CC8B1A19354300C25D84 /* Hunter.xcdatamodeld in Sources */,
+				498E37591A19B0AE004A9A17 /* MapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +442,7 @@
 				4982CCA71A19354300C25D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4982CCA81A19354300C25D84 /* Build configuration list for PBXNativeTarget "HunterTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +451,7 @@
 				4982CCAA1A19354300C25D84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
